@@ -1,0 +1,19 @@
+{
+  "model": "vit_base_patch14_dinov2.lvd142m",
+  "weight_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "torch": "2.7.1+cu128",
+  "torchvision": "0.22.1+cu128",
+  "timm": "1.0.25",
+  "numpy": "1.26.4",
+  "pillow": "10.3.0",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "image_resize": "518x518 torchvision Resize with PIL bilinear",
+  "normalization": "ImageNet mean/std",
+  "output": "final-block 1369 spatial tokens only, L2-normalized float32",
+  "selected_splits": [
+    "test_defect",
+    "test_normal",
+    "train_normal"
+  ],
+  "manifest_images": 469
+}

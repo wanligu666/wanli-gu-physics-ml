@@ -6,3 +6,6 @@ __pycache__/
 .venv/
 venv/
 *.py[cod]
+textile_anomaly_detection/reports/
+textile_anomaly_detection/runs/
+compton_scattering/partb_*deg_analysis.png

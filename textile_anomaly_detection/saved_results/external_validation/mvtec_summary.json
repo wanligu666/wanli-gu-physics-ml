@@ -1,0 +1,1132 @@
+{
+  "protocol": "DINOv2 ViT-B/14 CLS-free, 518 resize, cosine 1-NN, top-13 image score",
+  "reference": "mvtec_patch_textures.py seed-42 1024-entry image AUROC",
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "budgets": [
+    256,
+    1024
+  ],
+  "weight_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "results": [
+    {
+      "category": "bottle",
+      "train_normal": 209,
+      "test_normal": 20,
+      "test_defect": 63,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        }
+      ],
+      "elapsed_s": 44.11774139999761
+    },
+    {
+      "category": "cable",
+      "train_normal": 224,
+      "test_normal": 58,
+      "test_defect": 92,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9034857571214393,
+          "image_ap": 0.9529866958629736
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.974512743628186,
+          "image_ap": 0.9864001066526311
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9490254872563718,
+          "image_ap": 0.975410563281701
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.9615817091454273,
+          "image_ap": 0.9805947702103108
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.930847076461769,
+          "image_ap": 0.9655672792546447
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9518365817091455,
+          "image_ap": 0.97653850295204
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 0.9117316341829086,
+          "image_ap": 0.9556946422086245
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9666416791604198,
+          "image_ap": 0.9829358068222669
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9008620689655172,
+          "image_ap": 0.9481529637824391
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9623313343328336,
+          "image_ap": 0.9795550897875739
+        }
+      ],
+      "elapsed_s": 53.37243460002355
+    },
+    {
+      "category": "capsule",
+      "train_normal": 219,
+      "test_normal": 23,
+      "test_defect": 109,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9613083366573594,
+          "image_ap": 0.9882631730392908
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.966094934184284,
+          "image_ap": 0.989563332492816
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9692859992022338,
+          "image_ap": 0.9919143438705472
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.96888711607499,
+          "image_ap": 0.9909351802216702
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9812524930195453,
+          "image_ap": 0.9953700539182739
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9652971679297966,
+          "image_ap": 0.9899295254634148
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 0.9525329078579976,
+          "image_ap": 0.9841641217807908
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9641005185480653,
+          "image_ap": 0.9890471354913066
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9405664140406861,
+          "image_ap": 0.9859086401671423
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9676904666932589,
+          "image_ap": 0.9901685314496409
+        }
+      ],
+      "elapsed_s": 51.527136599994265
+    },
+    {
+      "category": "carpet",
+      "train_normal": 280,
+      "test_normal": 28,
+      "test_defect": 89,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9987961476725522,
+          "image_ap": 0.9996212280614505
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9995987158908507,
+          "image_ap": 0.9998751560549315
+        }
+      ],
+      "elapsed_s": 62.089974600006826
+    },
+    {
+      "category": "grid",
+      "train_normal": 264,
+      "test_normal": 21,
+      "test_defect": 57,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9991645781119465,
+          "image_ap": 0.9996975196612223
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9991645781119465,
+          "image_ap": 0.9996975196612223
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.9991645781119465,
+          "image_ap": 0.9996975196612223
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9991645781119465,
+          "image_ap": 0.9996975196612223
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9991645781119465,
+          "image_ap": 0.9996975196612223
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        }
+      ],
+      "elapsed_s": 54.69297410000581
+    },
+    {
+      "category": "hazelnut",
+      "train_normal": 391,
+      "test_normal": 40,
+      "test_defect": 70,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9867857142857143,
+          "image_ap": 0.9931299557754092
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9992857142857142,
+          "image_ap": 0.9995947111238859
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9982142857142857,
+          "image_ap": 0.9990105013643502
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.9996428571428572,
+          "image_ap": 0.999798792756539
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9914285714285714,
+          "image_ap": 0.9950315515705401
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9996428571428572,
+          "image_ap": 0.999798792756539
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 0.9982142857142857,
+          "image_ap": 0.9989937207787787
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9996428571428572,
+          "image_ap": 0.999798792756539
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9878571428571429,
+          "image_ap": 0.9946104422125379
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9985714285714286,
+          "image_ap": 0.9992007601162527
+        }
+      ],
+      "elapsed_s": 92.94459800000186
+    },
+    {
+      "category": "leather",
+      "train_normal": 245,
+      "test_normal": 32,
+      "test_defect": 92,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0000000000000002
+        }
+      ],
+      "elapsed_s": 60.48131440000725
+    },
+    {
+      "category": "metal_nut",
+      "train_normal": 220,
+      "test_normal": 22,
+      "test_defect": 93,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9990224828934506,
+          "image_ap": 0.9997736276174306
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9975562072336266,
+          "image_ap": 0.9994351978952184
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        }
+      ],
+      "elapsed_s": 49.456348399980925
+    },
+    {
+      "category": "pill",
+      "train_normal": 267,
+      "test_normal": 26,
+      "test_defect": 141,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9566284779050735,
+          "image_ap": 0.9921734375738224
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9847244953627933,
+          "image_ap": 0.9972724566303415
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9577195853791598,
+          "image_ap": 0.9921863226760417
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.9757228587015822,
+          "image_ap": 0.9955143434153253
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9675395526459356,
+          "image_ap": 0.9942501022519287
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9773595199127114,
+          "image_ap": 0.9960226357178048
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 0.9713584288052374,
+          "image_ap": 0.9949162791990402
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9863611565739224,
+          "image_ap": 0.9974743609627227
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9719039825422804,
+          "image_ap": 0.9950957292459514
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.98063284233497,
+          "image_ap": 0.9964840961829359
+        }
+      ],
+      "elapsed_s": 61.618447800021386
+    },
+    {
+      "category": "screw",
+      "train_normal": 320,
+      "test_normal": 41,
+      "test_defect": 119,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.8167657306825169,
+          "image_ap": 0.9331488600008137
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9225251076040172,
+          "image_ap": 0.9705655165686813
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.7868415658946507,
+          "image_ap": 0.9200504725602077
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.9422012707522033,
+          "image_ap": 0.979387866596945
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.7880713260914122,
+          "image_ap": 0.9227761710614315
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9063332650133223,
+          "image_ap": 0.9677736038866533
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 0.7394957983193278,
+          "image_ap": 0.8929636380418196
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9284689485550317,
+          "image_ap": 0.9753206581842583
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.7827423652387784,
+          "image_ap": 0.9191388175451396
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.895675343308055,
+          "image_ap": 0.9638261400035147
+        }
+      ],
+      "elapsed_s": 71.52560679998714
+    },
+    {
+      "category": "tile",
+      "train_normal": 230,
+      "test_normal": 33,
+      "test_defect": 84,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        }
+      ],
+      "elapsed_s": 55.03641110000899
+    },
+    {
+      "category": "toothbrush",
+      "train_normal": 60,
+      "test_normal": 12,
+      "test_defect": 30,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999999
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9972222222222222,
+          "image_ap": 0.9989247311827957
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9944444444444445,
+          "image_ap": 0.9978136200716845
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999999
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9916666666666667,
+          "image_ap": 0.9968055555555555
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999999
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999999
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999999
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9972222222222222,
+          "image_ap": 0.9989247311827957
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9944444444444445,
+          "image_ap": 0.9979166666666667
+        }
+      ],
+      "elapsed_s": 17.086877000023378
+    },
+    {
+      "category": "transistor",
+      "train_normal": 213,
+      "test_normal": 60,
+      "test_defect": 40,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9829166666666667,
+          "image_ap": 0.9777972832468971
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9966666666666667,
+          "image_ap": 0.9950064412018842
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9933333333333334,
+          "image_ap": 0.9905562658897888
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 0.995,
+          "image_ap": 0.993982843137255
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9920833333333333,
+          "image_ap": 0.9905345911949687
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9983333333333333,
+          "image_ap": 0.997590011614402
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 0.9954166666666666,
+          "image_ap": 0.993192084810812
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.99375,
+          "image_ap": 0.9913785785496313
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9929166666666667,
+          "image_ap": 0.9901031735935966
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9987499999999999,
+          "image_ap": 0.9981242182614134
+        }
+      ],
+      "elapsed_s": 54.821494300005725
+    },
+    {
+      "category": "wood",
+      "train_normal": 247,
+      "test_normal": 19,
+      "test_defect": 60,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9964912280701754,
+          "image_ap": 0.9989285714285715
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 0.9956140350877192,
+          "image_ap": 0.9986460855528653
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 0.9982456140350877,
+          "image_ap": 0.999462365591398
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 1.0
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 0.9982456140350877,
+          "image_ap": 0.999462365591398
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9964912280701754,
+          "image_ap": 0.9989583333333335
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 0.9964912280701754,
+          "image_ap": 0.9989285714285715
+        }
+      ],
+      "elapsed_s": 61.58256330000586
+    },
+    {
+      "category": "zipper",
+      "train_normal": 240,
+      "test_normal": 32,
+      "test_defect": 119,
+      "rows": [
+        {
+          "seed": 42,
+          "budget": 256,
+          "image_auroc": 0.9981617647058824,
+          "image_ap": 0.9995331465919699
+        },
+        {
+          "seed": 42,
+          "budget": 1024,
+          "image_auroc": 0.9997373949579832,
+          "image_ap": 0.9999299719887953
+        },
+        {
+          "seed": 123,
+          "budget": 256,
+          "image_auroc": 0.9984243697478992,
+          "image_ap": 0.999575003685397
+        },
+        {
+          "seed": 123,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 456,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 456,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 789,
+          "budget": 256,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 789,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        },
+        {
+          "seed": 1024,
+          "budget": 256,
+          "image_auroc": 0.9989495798319328,
+          "image_ap": 0.9997192700568438
+        },
+        {
+          "seed": 1024,
+          "budget": 1024,
+          "image_auroc": 1.0,
+          "image_ap": 0.9999999999999998
+        }
+      ],
+      "elapsed_s": 55.43769550000434
+    }
+  ],
+  "macro_by_seed": [
+    {
+      "seed": 42,
+      "budget": 256,
+      "macro_image_auroc": 0.9734226549178253
+    },
+    {
+      "seed": 42,
+      "budget": 1024,
+      "macro_image_auroc": 0.9893021715276441
+    },
+    {
+      "seed": 123,
+      "budget": 256,
+      "macro_image_auroc": 0.9764034909983451
+    },
+    {
+      "seed": 123,
+      "budget": 1024,
+      "macro_image_auroc": 0.9894532737213237
+    },
+    {
+      "seed": 456,
+      "budget": 256,
+      "macro_image_auroc": 0.9757525887754135
+    },
+    {
+      "seed": 456,
+      "budget": 1024,
+      "macro_image_auroc": 0.986443136997807
+    },
+    {
+      "seed": 789,
+      "budget": 256,
+      "macro_image_auroc": 0.9712499814364283
+    },
+    {
+      "seed": 789,
+      "budget": 1024,
+      "macro_image_auroc": 0.9891206326604158
+    },
+    {
+      "seed": 1024,
+      "budget": 256,
+      "macro_image_auroc": 0.9710554114447884
+    },
+    {
+      "seed": 1024,
+      "budget": 1024,
+      "macro_image_auroc": 0.9862790535764011
+    }
+  ],
+  "macro_summary": {
+    "256": {
+      "mean": 0.97357682551456,
+      "population_sd": 0.0022144744014135093
+    },
+    "1024": {
+      "mean": 0.9881196536967183,
+      "population_sd": 0.0014406503198827504
+    }
+  }
+}

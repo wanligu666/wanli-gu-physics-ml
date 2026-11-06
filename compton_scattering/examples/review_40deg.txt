@@ -1,0 +1,27 @@
+Angle: 40 degrees; signal: 40_degree_20min.txt
+Theoretical energy: 507.82 keV; expected channel: 241.95
+Automatic peak: channel 241; half-prominence width: 34.15 channels
+factor | window | centre +/- error | reduced chi2 / limit | runs p | decision
+1.00 | 206-276 |  240.08 +/-  1.03 | 0.918 / 1.302 |  0.970 | PASS
+1.25 | 198-284 |  239.79 +/-  0.92 | 0.824 / 1.270 |  0.791 | PASS
+1.50 | 189-293 |  239.76 +/-  0.84 | 0.847 / 1.243 |  0.655 | PASS
+1.75 | 181-301 |  239.65 +/-  0.83 | 0.851 / 1.225 |  0.649 | PASS
+2.00 | 172-310 |  239.36 +/-  0.81 | 0.872 / 1.209 |  0.373 | PASS
+2.25 | 164-318 |  239.42 +/-  0.81 | 0.850 / 1.197 |  0.476 | PASS
+2.50 | 155-327 |  239.34 +/-  0.81 | 0.846 / 1.186 |  0.456 | PASS
+2.75 | 147-335 |  239.23 +/-  0.81 | 0.932 / 1.177 |  0.701 | PASS
+3.00 | 138-344 |  239.30 +/-  0.81 | 0.962 / 1.169 |  0.626 | PASS
+3.25 | 130-352 |  239.23 +/-  0.80 | 0.944 / 1.163 |  0.958 | PASS
+3.50 | 121-361 |  239.11 +/-  0.80 | 1.030 / 1.156 |  0.747 | PASS
+3.75 | 112-370 |  239.01 +/-  0.80 | 1.041 / 1.150 |  0.854 | PASS
+4.00 | 104-378 |  238.92 +/-  0.80 | 1.044 / 1.146 |  0.604 | PASS
+
+Selected factor: 4.00; window: 104-378
+Peak centre: 238.921 +/- 0.800 channels
+Energy: 501.01 +/- 1.80 keV (FIT ERROR ONLY)
+Theory: 507.82 keV; difference: -6.81 keV
+Status: WINDOW TESTS PASSED; peak significance still needs checking
+Indicative amplitude / SE: 14.67 (not a formal discovery significance)
+Calibration error needs slope/intercept COVARIANCE for correct propagation.
+CAUTION: Selected factor reached scan maximum; this does not prove it is optimal.
+One analysis figure saved: partb_40deg_analysis.png

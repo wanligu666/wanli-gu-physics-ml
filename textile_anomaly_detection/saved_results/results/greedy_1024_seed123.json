@@ -1,0 +1,20 @@
+{
+  "protocol": "clean_279_train_cls_excluded_518_bilinear_v1",
+  "method": "greedy",
+  "budget": 1024,
+  "seed": 123,
+  "train_images": 279,
+  "test_normal": 59,
+  "test_defect": 131,
+  "full_memory_vectors": 381951,
+  "full_bank_sha256": "c9fa11285a6ea0e0f92659034b33ae1b36c34a9560228d5d6dec64d92ebf3041",
+  "stored_feature_MB": 3.145728,
+  "auroc": 0.9554923017207919,
+  "average_precision": 0.9780578761475616,
+  "build_s": 5.791198299993994,
+  "retrieval_190_images_s": 0.6763139999820851,
+  "retrieval_ms_per_image": 3.5595473683267636,
+  "scores_file": "greedy_1024_seed123_scores.npz",
+  "selection": "nested farthest-point trajectory",
+  "max_trajectory_budget": 1024
+}

@@ -1,0 +1,134 @@
+{
+  "protocol": "AITEX post-audit foreground scores; 1024-entry greedy memories; 7 sources, six macro targets, 5 selection seed(s). Each source threshold uses the 95th percentile of its own 8 or 9 normal originals held out from memory construction, then scores other fabric targets. Calibration normals do not overlap their off-diagonal target. Threshold metrics are descriptive.",
+  "source_codes": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "eligible_target_codes": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "06"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "source_calibration_normal_counts": {
+    "00": 8,
+    "01": 9,
+    "02": 8,
+    "03": 8,
+    "04": 8,
+    "05": 8,
+    "06": 8
+  },
+  "cross_fabric_threshold_sensitivity": {
+    "0.9": {
+      "target_fpr_by_seed": [
+        0.9386574074074073,
+        0.9425154320987654,
+        0.9286265432098766,
+        0.9351851851851851,
+        0.9324845679012346
+      ],
+      "target_fpr_mean": 0.9354938271604938,
+      "target_fpr_population_std": 0.004808776682371236,
+      "target_tpr_by_seed": [
+        0.9491975907510712,
+        0.9413904384617457,
+        0.9297403454873743,
+        0.9333117740588028,
+        0.938824435641074
+      ],
+      "target_tpr_mean": 0.9384929168800136,
+      "target_tpr_population_std": 0.006731230580039208
+    },
+    "0.95": {
+      "target_fpr_by_seed": [
+        0.9047067901234568,
+        0.9290123456790123,
+        0.908179012345679,
+        0.9185956790123456,
+        0.9189814814814814
+      ],
+      "target_fpr_mean": 0.915895061728395,
+      "target_fpr_population_std": 0.008644041860496911,
+      "target_tpr_by_seed": [
+        0.9152518392756082,
+        0.9239860403697414,
+        0.9080007366085465,
+        0.9211725550435228,
+        0.919026284348865
+      ],
+      "target_tpr_mean": 0.9174874911292568,
+      "target_tpr_population_std": 0.005534896085797462
+    },
+    "1.0": {
+      "target_fpr_by_seed": [
+        0.8645833333333334,
+        0.8915895061728395,
+        0.8977623456790123,
+        0.9116512345679012,
+        0.9155092592592591
+      ],
+      "target_fpr_mean": 0.8962191358024689,
+      "target_fpr_population_std": 0.018082574486953062,
+      "target_tpr_by_seed": [
+        0.8865448792231475,
+        0.9075841485434015,
+        0.8920980767330513,
+        0.909528525615113,
+        0.9103958372634094
+      ],
+      "target_tpr_mean": 0.9012302934756246,
+      "target_tpr_population_std": 0.009922682078844886
+    }
+  },
+  "per_target_q95": {
+    "00": {
+      "target_fpr_mean": 1.0,
+      "target_tpr_mean": 0.8285714285714286
+    },
+    "01": {
+      "target_fpr_mean": 0.737037037037037,
+      "target_tpr_mean": 1.0
+    },
+    "02": {
+      "target_fpr_mean": 0.8166666666666667,
+      "target_tpr_mean": 0.9078947368421056
+    },
+    "03": {
+      "target_fpr_mean": 1.0,
+      "target_tpr_mean": 0.9129032258064516
+    },
+    "04": {
+      "target_fpr_mean": 0.9791666666666666,
+      "target_tpr_mean": 0.9500000000000001
+    },
+    "06": {
+      "target_fpr_mean": 0.9625,
+      "target_tpr_mean": 0.9055555555555556
+    }
+  },
+  "paired_auc_gap": {
+    "own_minus_other_observed": 0.2762458696771798,
+    "bootstrap_seed": 20261022,
+    "bootstrap_replicates": 2000,
+    "resampling_unit": "Normal and defective original images sampled separately within each of six fixed target fabrics; same resample shared across seven source memories and 5 selection seed(s). Source training and original split held fixed.",
+    "bootstrap_percentile_95_interval": [
+      0.19867337610191851,
+      0.35324626572591866
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "protocol": "clean_279_train_cls_excluded_518_bilinear_v1",
+  "method": "random",
+  "budget": 1024,
+  "seed": 123,
+  "train_images": 279,
+  "test_normal": 59,
+  "test_defect": 131,
+  "full_memory_vectors": 381951,
+  "full_bank_sha256": "c9fa11285a6ea0e0f92659034b33ae1b36c34a9560228d5d6dec64d92ebf3041",
+  "stored_feature_MB": 3.145728,
+  "auroc": 0.8874369258636304,
+  "average_precision": 0.942410174156162,
+  "build_s": 0.0004867000097874552,
+  "retrieval_190_images_s": 0.6558793000003789,
+  "retrieval_ms_per_image": 3.451996315791468,
+  "scores_file": "random_1024_seed123_scores.npz",
+  "selection": "independent seed per budget"
+}

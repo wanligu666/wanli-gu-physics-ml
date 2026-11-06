@@ -1,0 +1,234 @@
+{
+  "protocol": "Two thousand paired stratified bootstrap resamples of normal and defective target originals within each of six fixed AITEX fabrics. Every method and selection seed receives the same resampled image IDs. The interval is conditional on the fixed fabric categories, train/test split, and post-audit foreground rule.",
+  "bootstrap_seed": 20261022,
+  "bootstrap_replicates": 2000,
+  "methods": [
+    "greedy",
+    "kmeans",
+    "random"
+  ],
+  "targets": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "06"
+  ],
+  "macro": {
+    "greedy": {
+      "image_auroc_by_seed": [
+        0.8740436440563776,
+        0.8555390492359932,
+        0.850145356671248,
+        0.84471359851241,
+        0.861925479020131
+      ],
+      "image_auroc_mean": 0.8572734254992319,
+      "image_auroc_population_std": 0.010143456142692223
+    },
+    "kmeans": {
+      "image_auroc_by_seed": [
+        0.8356263642978413,
+        0.8452374215107662,
+        0.8226123103457569,
+        0.8221171207588864,
+        0.7993749494704504
+      ],
+      "image_auroc_mean": 0.8249936332767402,
+      "image_auroc_population_std": 0.015447510570734865
+    },
+    "random": {
+      "image_auroc_by_seed": [
+        0.7376947071981027,
+        0.6703394912011209,
+        0.7315850109143827,
+        0.7278439714878595,
+        0.7383125151588649
+      ],
+      "image_auroc_mean": 0.7211551391920661,
+      "image_auroc_population_std": 0.025704807496876043
+    }
+  },
+  "macro_ap": {
+    "greedy": {
+      "image_ap_by_seed": [
+        0.9169851931596638,
+        0.9139997536351695,
+        0.8886968231292459,
+        0.905596168428723,
+        0.9010478055719872
+      ],
+      "image_ap_mean": 0.9052651487849579,
+      "image_ap_population_std": 0.010060394970861601
+    },
+    "kmeans": {
+      "image_ap_by_seed": [
+        0.895675110019849,
+        0.9063442031024729,
+        0.8891341618882507,
+        0.8912231560417704,
+        0.87024467157556
+      ],
+      "image_ap_mean": 0.8905242605255805,
+      "image_ap_population_std": 0.011751462809324039
+    },
+    "random": {
+      "image_ap_by_seed": [
+        0.8272619033643179,
+        0.7898235365404829,
+        0.8485681774343959,
+        0.8381940119851964,
+        0.8377464625339756
+      ],
+      "image_ap_mean": 0.8283188183716736,
+      "image_ap_population_std": 0.02039333351074404
+    }
+  },
+  "score_audit": {
+    "00": {
+      "test_originals": 15,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 1.1102230246251565e-16
+    },
+    "01": {
+      "test_originals": 21,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 0.0
+    },
+    "02": {
+      "test_originals": 46,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 1.1102230246251565e-16
+    },
+    "03": {
+      "test_originals": 39,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 1.1102230246251565e-16
+    },
+    "04": {
+      "test_originals": 18,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 1.1102230246251565e-16
+    },
+    "05": {
+      "test_originals": 9,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 0.0
+    },
+    "06": {
+      "test_originals": 14,
+      "greedy_score_max_abs_difference": 0.0,
+      "pair_count_auroc_max_abs_difference": 1.1102230246251565e-16
+    }
+  },
+  "comparisons": {
+    "greedy_minus_kmeans": {
+      "observed_auroc_difference": 0.032279792222491666,
+      "paired_target_image_bootstrap_95_interval": [
+        -0.02629273705096101,
+        0.0950504731250168
+      ]
+    },
+    "greedy_minus_random": {
+      "observed_auroc_difference": 0.13611828630716583,
+      "paired_target_image_bootstrap_95_interval": [
+        0.06697333976742934,
+        0.2047682150605009
+      ]
+    },
+    "kmeans_minus_random": {
+      "observed_auroc_difference": 0.10383849408467416,
+      "paired_target_image_bootstrap_95_interval": [
+        0.045869358375778296,
+        0.166835241665993
+      ]
+    }
+  },
+  "per_target_auroc": {
+    "00": {
+      "greedy": {
+        "mean": 0.8892857142857142,
+        "population_std": 0.023690177073967134
+      },
+      "kmeans": {
+        "mean": 0.6750000000000002,
+        "population_std": 0.007142857142857162
+      },
+      "random": {
+        "mean": 0.5714285714285714,
+        "population_std": 0.0
+      }
+    },
+    "01": {
+      "greedy": {
+        "mean": 1.0,
+        "population_std": 0.0
+      },
+      "kmeans": {
+        "mean": 1.0,
+        "population_std": 0.0
+      },
+      "random": {
+        "mean": 1.0,
+        "population_std": 0.0
+      }
+    },
+    "02": {
+      "greedy": {
+        "mean": 0.9125,
+        "population_std": 0.006101064799668199
+      },
+      "kmeans": {
+        "mean": 0.9105263157894736,
+        "population_std": 0.013546881764456535
+      },
+      "random": {
+        "mean": 0.8578947368421052,
+        "population_std": 0.029524744305680133
+      }
+    },
+    "03": {
+      "greedy": {
+        "mean": 0.8943548387096774,
+        "population_std": 0.004702380560359109
+      },
+      "kmeans": {
+        "mean": 0.8669354838709676,
+        "population_std": 0.007213122508063831
+      },
+      "random": {
+        "mean": 0.796774193548387,
+        "population_std": 0.05085123474333691
+      }
+    },
+    "04": {
+      "greedy": {
+        "mean": 0.6975,
+        "population_std": 0.035707142142714296
+      },
+      "kmeans": {
+        "mean": 0.8225,
+        "population_std": 0.06999999999999999
+      },
+      "random": {
+        "mean": 0.5925,
+        "population_std": 0.0998749217771909
+      }
+    },
+    "06": {
+      "greedy": {
+        "mean": 0.75,
+        "population_std": 0.04750730937913074
+      },
+      "kmeans": {
+        "mean": 0.675,
+        "population_std": 0.05204164998665334
+      },
+      "random": {
+        "mean": 0.5083333333333333,
+        "population_std": 0.05980291706003051
+      }
+    }
+  }
+}

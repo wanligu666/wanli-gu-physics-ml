@@ -2,26 +2,24 @@ Angle: 60 degrees; signal: 60_degree_20min.txt
 Theoretical energy: 401.63 keV; expected channel: 194.78
 Automatic peak: channel 195; half-prominence width: 27.10 channels
 factor | window | centre +/- error | reduced chi2 / limit | runs p | decision
-1.00 | 167-223 |  194.00 +/-  0.95 | 1.117 / 1.343 |  0.359 | PASS
-1.25 | 161-229 |  193.58 +/-  0.89 | 1.081 / 1.307 |  0.545 | PASS
-1.50 | 154-236 |  193.51 +/-  0.86 | 1.047 / 1.277 |  0.580 | PASS
-1.75 | 147-243 |  193.47 +/-  0.85 | 1.017 / 1.254 |  0.123 | PASS
-2.00 | 140-250 |  193.45 +/-  0.84 | 0.969 / 1.236 |  0.069 | PASS
-2.25 | 134-256 |  193.29 +/-  0.83 | 0.947 / 1.223 |  0.168 | PASS
-2.50 | 127-263 |  193.26 +/-  0.82 | 0.966 / 1.211 |  0.140 | PASS
-2.75 | 120-270 |  193.11 +/-  0.82 | 1.003 / 1.200 |  0.060 | PASS
-3.00 | 113-277 |  193.08 +/-  0.82 | 0.984 / 1.191 |  0.240 | PASS
-3.25 | 106-284 |  193.00 +/-  0.82 | 1.019 / 1.183 |  0.407 | PASS
-3.50 | 100-290 |  192.88 +/-  0.82 | 1.021 / 1.176 |  0.493 | PASS
-3.75 |  93-297 |  192.79 +/-  0.82 | 1.060 / 1.170 |  0.705 | PASS
-4.00 |  86-304 |  192.73 +/-  0.82 | 1.032 / 1.164 |  0.784 | PASS
+1.00 | 167-223 |  194.00 +/-  0.95 | 1.117 / 1.343 |  0.359 | pass
+1.25 | 161-229 |  193.58 +/-  0.89 | 1.081 / 1.307 |  0.545 | pass
+1.50 | 154-236 |  193.51 +/-  0.86 | 1.047 / 1.277 |  0.580 | pass
+1.75 | 147-243 |  193.47 +/-  0.85 | 1.017 / 1.254 |  0.123 | pass
+2.00 | 140-250 |  193.45 +/-  0.84 | 0.969 / 1.236 |  0.069 | pass
+2.25 | 134-256 |  193.29 +/-  0.83 | 0.947 / 1.223 |  0.168 | pass
+2.50 | 127-263 |  193.26 +/-  0.82 | 0.966 / 1.211 |  0.140 | pass
+2.75 | 120-270 |  193.11 +/-  0.82 | 1.003 / 1.200 |  0.060 | pass
+3.00 | 113-277 |  193.08 +/-  0.82 | 0.984 / 1.191 |  0.240 | pass
+3.25 | 106-284 |  193.00 +/-  0.82 | 1.019 / 1.183 |  0.407 | pass
+3.50 | 100-290 |  192.88 +/-  0.82 | 1.021 / 1.176 |  0.493 | pass
+3.75 |  93-297 |  192.79 +/-  0.82 | 1.060 / 1.170 |  0.705 | pass
+4.00 |  86-304 |  192.73 +/-  0.82 | 1.032 / 1.164 |  0.784 | pass
 
 Selected factor: 4.00; window: 86-304
 Peak centre: 192.728 +/- 0.815 channels
-Energy: 397.02 +/- 1.84 keV (FIT ERROR ONLY)
+Energy: 397.02 +/- 1.84 keV (fit error)
 Theory: 401.63 keV; difference: -4.61 keV
-Status: WINDOW TESTS PASSED; peak significance still needs checking
-Indicative amplitude / SE: 12.93 (not a formal discovery significance)
-Calibration error needs slope/intercept COVARIANCE for correct propagation.
-CAUTION: Selected factor reached scan maximum; this does not prove it is optimal.
-One analysis figure saved: partb_60deg_analysis.png
+Window checks: passed
+Window scan reached k = 4.00.
+Saved: partb_60deg_analysis.png

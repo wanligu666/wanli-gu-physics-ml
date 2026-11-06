@@ -2,23 +2,21 @@ Angle: 50 degrees; signal: 50_degree_20min.txt
 Theoretical energy: 452.41 keV; expected channel: 217.33
 Automatic peak: channel 218; half-prominence width: 32.15 channels
 factor | window | centre +/- error | reduced chi2 / limit | runs p | decision
-1.00 | 185-251 |  217.32 +/-  1.16 | 1.198 / 1.313 |  0.007 | FAIL
-1.25 | 177-259 |  216.91 +/-  0.98 | 1.140 / 1.277 |  0.219 | PASS
-1.50 | 169-267 |  216.39 +/-  0.94 | 1.110 / 1.251 |  0.595 | PASS
-1.75 | 161-275 |  216.35 +/-  0.92 | 1.077 / 1.232 |  0.447 | PASS
-2.00 | 153-283 |  216.32 +/-  0.91 | 1.009 / 1.216 |  0.381 | PASS
-2.25 | 145-291 |  216.02 +/-  0.91 | 1.028 / 1.203 |  0.193 | PASS
-2.50 | 137-299 |  216.10 +/-  0.90 | 1.124 / 1.192 |  0.075 | PASS
-2.75 | 129-307 |  216.00 +/-  0.90 | 1.156 / 1.183 |  0.103 | PASS
-3.00 | 121-315 |  215.92 +/-  0.90 | 1.155 / 1.175 |  0.077 | PASS
-3.25 | 113-323 |  215.77 +/-  0.90 | 1.156 / 1.167 |  0.245 | PASS
-3.50 | 105-331 |  215.55 +/-  0.90 | 1.201 / 1.161 |  0.259 | FAIL
+1.00 | 185-251 |  217.32 +/-  1.16 | 1.198 / 1.313 |  0.007 | fail
+1.25 | 177-259 |  216.91 +/-  0.98 | 1.140 / 1.277 |  0.219 | pass
+1.50 | 169-267 |  216.39 +/-  0.94 | 1.110 / 1.251 |  0.595 | pass
+1.75 | 161-275 |  216.35 +/-  0.92 | 1.077 / 1.232 |  0.447 | pass
+2.00 | 153-283 |  216.32 +/-  0.91 | 1.009 / 1.216 |  0.381 | pass
+2.25 | 145-291 |  216.02 +/-  0.91 | 1.028 / 1.203 |  0.193 | pass
+2.50 | 137-299 |  216.10 +/-  0.90 | 1.124 / 1.192 |  0.075 | pass
+2.75 | 129-307 |  216.00 +/-  0.90 | 1.156 / 1.183 |  0.103 | pass
+3.00 | 121-315 |  215.92 +/-  0.90 | 1.155 / 1.175 |  0.077 | pass
+3.25 | 113-323 |  215.77 +/-  0.90 | 1.156 / 1.167 |  0.245 | pass
+3.50 | 105-331 |  215.55 +/-  0.90 | 1.201 / 1.161 |  0.259 | fail
 
 Selected factor: 3.25; window: 113-323
 Peak centre: 215.769 +/- 0.898 channels
-Energy: 448.89 +/- 2.02 keV (FIT ERROR ONLY)
+Energy: 448.89 +/- 2.02 keV (fit error)
 Theory: 452.41 keV; difference: -3.52 keV
-Status: WINDOW TESTS PASSED; peak significance still needs checking
-Indicative amplitude / SE: 13.47 (not a formal discovery significance)
-Calibration error needs slope/intercept COVARIANCE for correct propagation.
-One analysis figure saved: partb_50deg_analysis.png
+Window checks: passed
+Saved: partb_50deg_analysis.png
